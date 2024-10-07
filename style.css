@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    font-size: xx-large;
+}
+
+@font-face {
+    font-family: Poppins-bold;
+    src: url(assets/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins-extrabold;
+    src: url(assets/fonts/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-extrabolditalic;
+    src: url(assets/fonts/Poppins-ExtraBoldItalic.ttf);
+}
+
+body{
+    background-color: rgb(227, 227, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+p{
+    font-size: small;
+    font-family: Poppins-bold;
+    margin-bottom: 0.1rem;
+    color: grey;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-family: Poppins-extrabolditalic;
+}
+
+span{
+    font-size: 2.5rem;
+    color: rgb(148, 27, 229);
+}
+
+input{
+    height: 1.5rem;
+    width: 4rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-family: Poppins-extrabold;
+}
+
+hr{
+    margin-top: 1.5rem;
+    width: 17rem;
+    height: 1px;
+}
+
+.container{
+    background-color: white;
+    padding:  0 2rem;
+    height: fit-content;
+    width: 20rem;
+    border-radius: 1rem;
+    border-bottom-right-radius: 5rem;
+}
+
+#beiras{
+    margin-top: 1.5rem;
+    display: flex;
+}
+
+.day, .month, .year{
+    margin-right: 1rem;
+}
+
+#kiiras{
+    margin-bottom: 1.5rem;
+}
+
+#bekuldes{
+    display: flex;
+}
+
+#gomb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(148, 27, 229);
+    border-radius: 50%;
+}
